@@ -1,0 +1,13 @@
+.form-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-left: 60px;
+}
+
+label {
+    margin: 10px;
+}
+
