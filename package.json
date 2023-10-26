@@ -1,5 +1,6 @@
 {
   "name": "artistic-uncertainty",
+  "homepage": "https://artistic-uncertainty.shawnallen.dev/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
