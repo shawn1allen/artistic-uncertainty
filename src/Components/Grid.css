@@ -4,15 +4,17 @@
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
+
 }
 
 .grid {
   display: inline-block;
-  /* Change from grid to inline-block */
 }
 
 .row {
   display: flex;
+  width: auto;
+  justify-content: center;
 }
 
 .cell {

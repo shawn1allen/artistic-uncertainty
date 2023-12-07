@@ -25,27 +25,30 @@ const ColorPickers = ({ colors, onColorChange, addColor }) => {
   return (
     <div className='color-pickers'>
       {colors.map((color, index) => (
-        <div key={index} className="color-picker" >
-          <button className='color-square' style={{ backgroundColor: `${color}` }} onClick={() => handleOpen(index)}></button>
-          
-          <Backdrop
-            sx={{ color: '52,52,52,.5', zIndex: 1000 }}
-            open={open}
-          >
-            <div style={{ width: '100vw', height: '100vh', position: 'fixed'}} onClick={() => {
-              handleClose()
-            }}></div>
-            <Wheel color={color} onChange={(newColor) => onColorChange(newColor, currentIndex)} />
-          </Backdrop>
-          <p style={{ marginTop: '20px' }}>{color}</p>
+        <div key={index} className="color-picker">
+          <ChromePicker color={color} onChange={(newColor) => onColorChange(newColor, index)} />
         </div>
+        // <div key={index} className="color-picker" >
+        //   <button className='color-square' style={{ backgroundColor: `${color}` }} onClick={() => handleOpen(index)}></button>
+
+        //   <Backdrop
+        //     sx={{ color: '52,52,52,.5', zIndex: 1000 }}
+        //     open={open}
+        //   >
+        //     <div style={{ width: '100vw', height: '100vh', position: 'fixed'}} onClick={() => {
+        //       handleClose()
+        //     }}></div>
+        //     <Wheel color={color} onChange={(newColor) => onColorChange(newColor, currentIndex)} />
+        //   </Backdrop>
+        //   <p style={{ marginTop: '20px' }}>{color}</p>
+        // </div>
       ))}
 
-      <div>
+      {/* <div>
         <button className='add-color-btn' onClick={() => addColor("#ffffff")}>+</button>
       <p style={{ marginTop: '13px' }}>Add a new color!!!</p>
-      </div>
-      
+      </div> */}
+
 
     </div>
   );

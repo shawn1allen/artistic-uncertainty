@@ -15,10 +15,11 @@ const PercentBar = ({ percent }) => {
 
     return (  
         <div style={{
-            position: 'absolute',
+            marginTop: '20px',
+            marginBottom: '20px',
             width: '100%',
             height: '20px',
-            border: '1px black solid'
+            border: '1px black solid',
         }}>
             <div style={{
                 position: 'absolute',

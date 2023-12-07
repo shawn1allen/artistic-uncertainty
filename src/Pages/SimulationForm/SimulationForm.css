@@ -1,0 +1,51 @@
+.Form-page {
+    background-color: #272833;
+    min-height: 100vh;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+
+.form-text * {
+    padding: 10px;
+}
+
+.form-container {
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;    
+    background-color: #3c3e52;
+    padding: 15px;
+}
+
+.css-m9glnp-MuiPaper-root-MuiDialog-paper {
+    background: #272833 !important;
+}
+
+.dialogue-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.grid-item {
+    padding: 20px;
+}
+
+.repetition-container {
+    border: 1px solid black;
+}
