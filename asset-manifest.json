@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.498d5590.css",
-    "main.js": "/static/js/main.2a76876c.js",
+    "main.css": "/static/css/main.69f17293.css",
+    "main.js": "/static/js/main.0c758bf1.js",
     "static/js/787.0c349c4d.chunk.js": "/static/js/787.0c349c4d.chunk.js",
+    "static/media/Website_background.png": "/static/media/Website_background.0346e159f68b1dc20693.png",
+    "static/media/Website_Logo.png": "/static/media/Website_Logo.17b4746e79dd5848132a.png",
     "static/media/waterDrop2.mp3": "/static/media/waterDrop2.60b84d2ece0aa1a3797a.mp3",
     "static/media/waterDrop1.mp3": "/static/media/waterDrop1.c3d8a2f20d5a5f637a6b.mp3",
     "static/media/waterDrop5.mp3": "/static/media/waterDrop5.cddaa76ccb2a53850012.mp3",
     "static/media/waterDrop3.mp3": "/static/media/waterDrop3.06a2450b0df7bdfcdeb3.mp3",
     "static/media/waterDrop4.mp3": "/static/media/waterDrop4.316ba4addbccfe6e7297.mp3",
     "index.html": "/index.html",
-    "main.498d5590.css.map": "/static/css/main.498d5590.css.map",
-    "main.2a76876c.js.map": "/static/js/main.2a76876c.js.map",
+    "main.69f17293.css.map": "/static/css/main.69f17293.css.map",
+    "main.0c758bf1.js.map": "/static/js/main.0c758bf1.js.map",
     "787.0c349c4d.chunk.js.map": "/static/js/787.0c349c4d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.498d5590.css",
-    "static/js/main.2a76876c.js"
+    "static/css/main.69f17293.css",
+    "static/js/main.0c758bf1.js"
   ]
 }
